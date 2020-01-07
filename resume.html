@@ -1,5 +1,16 @@
 ---
-title: Resume Begovich
+layout: default
+title: Kyle Resume
 ---
-<iframe src="/assets/images/BegovichKyleResume.pdf" width="100%" height="1200px" style="border:2px solid grey;">
-</iframe>
+
+{% include career-profile.html %}
+
+{% unless site.data.data.sidebar.education %}
+  {% include education.html %}
+{% endunless %}
+
+{% include experiences.html %}
+
+{% include projects.html %}
+
+{% include research.html %}
