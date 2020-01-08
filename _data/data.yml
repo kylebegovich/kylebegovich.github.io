@@ -1,0 +1,187 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+title: Kyle Begovich
+
+sidebar:
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Kyle Begovich
+    details: Software Engineer
+    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: begovichkyle@gmail.com
+    # phone: 630 945 0544
+    website: kylebegovich.com #do not add http://
+    linkedin: kyle-begovich
+    github: kylebegovich
+    gitlab:
+    bitbucket:
+    facebook: 'kyle.begovich.7'
+    twitter:
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
+
+    languages:
+      - text_line: Golang • Node.JS • Python
+      - text_line: Java • Android  • Redis • Git
+      - text_line: LaTeX • Bash • Linux • MacOS
+      - text_line: Alexa • Google Home • GCloud
+      - text_line: AWS • Lambda • EC2 • S3
+
+    interests:
+      - item: Photography
+        link:
+
+      - item: Cooking and Baking
+        link:
+
+      - item: Snowboarding
+        link:
+
+career-profile:
+    title: Career Profile
+    summary: |
+      New Grad Software Engineer working in the Bay Area, focused on
+      infrastructure and backend.
+education:
+    - degree: BSc in Mathematics and Computer Science
+      university: University of Illinois at Urbana-Champaign
+      time: 2016 - 2020
+      details: |
+        Worked closely with both the Mathematics and Computer Science colleges
+        to run Illinois Geometry Lab groups and CS department events. Math
+        projects I've worked on have all been run through the IGL, where I was
+        was the research team leader of two teams and the president of the
+        Outreach organization, where we shared mathematics learning resources
+        with K-12 students and teachers in the Champaign-Urbana area. For the CS
+        department, I led the logistics team for Reflections|Projections, our
+        student-run tech conference, led the Experience team for HackIllinois,
+        and ran a class series for Sail, the preview day for prospective and
+        admitted CS students at UIUC.
+experiences:
+    - role: Google, Software Engineer
+      logo: google_logo.png
+      time: 2020 - Present
+      company: Mountain View, CA
+      details: |
+          - Will work in the Core Systems organization as a new grad SWE
+    - role: Facebook, Software Engineer Co-op
+      logo: facebook_instagram_logo.png
+      time: Fall 2020
+      company: Menlo Park, CA
+      details: |
+          - Worked on Instagram Security and Privacy team
+          - Developed Authentication tooling for internal node API
+          - Enforced higher standard of access tagging of assets set by infra teams
+          - Experienced Django Python and formal code review processes
+    - role: Uber, Software Engineer Intern
+      logo: uber_logo.png
+      time: Summer 2020
+      company: San Francisco, CA
+      details: |
+          - Developed Caching system for Pricing models within UberEATS
+          - Worked on Golang microservice architecture and integrating Redis clients
+          - Set and tracked metrics measuring compute savings and load time reductions
+          - Finished with time to scope Android project for upcoming EATS features
+          - Collaborated cross-org: Compute, Design, and Data teams for projects
+    - role: Goldman Sachs, Technology Analyst Intern
+      logo: goldman_logo.png
+      time: Summer 2019
+      company: Chicago, IL
+      details: |
+          - Developed Alexa and Google Home apps for the Commercial Banking Division
+          - Pitched project, worked in business timeline, delivered MVP
+          - Wrote all project Node.JS, documentation, presentations, and budgeting
+    - role: CS 125, Lead Course Developer
+      logo: cs125_logo.png
+      time: 2017 - 2019
+      company: Champaign, IL
+      details: |
+          - Planned and ran first ever course project fair
+          - Designed and wrote Machine Problems for >900 students per semester
+          - Helped migrate course to new software tools, notably Git and Android
+
+projects:
+    title: Leadership
+    intro: >
+      In the CS department, I developed many of the student-run events in tandem
+      with the administration and other student groups.
+    assignments:
+      - title: HackIllinois, Director of Experience
+        logo: hackillinois_logo.png
+        link: "https://www.hackillinois.org/"
+        details: |
+            - HackIllinois is our student-run, open source Hackathon
+            - Managed a team of 15 students
+            - Found and Vetted all speakers, mentors, and projects
+            - Planned and prepared all workshops, swag, admissions, and volunteers
+            - Worked ~20 hr/wk in Summer & Fall and ~40 hr/wk in Spring
+      - title: Reflections|Projections, Operations Team Leader
+        logo: rp_logo.png
+        link: "https://www.reflectionsprojections.org/"
+        details: |
+            - Reflections\|Projections is our student-run, week-long tech conference
+            - Coordinated travel, food, building flow, volunteers, and swag
+            - Served as "Crisis Team" member: most reliable staff for event on-call issues
+            - Worked ~10 hr/wk in Summer and ~30 hr/wk in Fall
+      - title: IGL Outreach Organization, Founding President
+        logo: igl_logo.png
+        link: "https://wiki.illinois.edu/wiki/display/IGL/Undergraduate+Outreach"
+        details: |
+            - Created Outreach organization for math undergrads to get more involved on campus
+            - Worked to create and share mathemtatics learning resources for K-12
+            - Shared learnings by offering classroom visits and department days to local schools
+            - Worked with administrators Professor Jeremey Tyson and Dr Philipp Hieronymi for guidance
+research:
+    title: research
+    intro: |
+      At school I worked closely with the college of Mathematics to run Illinois
+      Geometry Lab research groups and the Undergrad Outreach Organization.
+    projects:
+      - title: Video As a Sensor, Scholar and Project Manager
+        link: "https://math.illinois.edu/research/igl/projects/spring/2018/video-sensor"
+        authors: Professor Richard Sowers
+        details: |
+            - Developed tools on top of the You Only Look Once Open Source Software
+            - Generated and trained the Convolutional Neural Network on a rich data set
+            - Presented work at UWashington, UI-Chicago, UIUC, and published online
+            - Worked closely with Professor Sowers over 4 semesters of being on this project
+      - title: Math of Poker-Like Games, Project Manager
+        link: "https://math.illinois.edu/research/igl/projects/fall/2018/mathematics-poker-games"
+        authors: Professor A.J. Hildebrand
+        details: |
+            - Working to verifying papers by John Nash and Lloyd Shaple
+            - Developed skills working with Game Theory, Probability, and Statistics Analysis
+            - Produced a formally proven and highly scaleable project, and presentations
+            - Partnering with Professor Hildebrand to continue directing the project for future semesters
+
+# skills:
+#     title: Skills &amp; Proficiency
+#
+#     toolset:
+#       - name: Python & Django
+#         level: 98%
+#
+#       - name: Javascript & jQuery
+#         level: 98%
+#
+#       - name: Angular
+#         level: 98%
+#
+#       - name: HTML5 & CSS
+#         level: 95%
+#
+#       - name: Ruby on Rails
+#         level: 85%
+#
+#       - name: Sketch & Photoshop
+#         level: 60%
+#
+# footer: >
+#     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
