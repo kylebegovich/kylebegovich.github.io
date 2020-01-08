@@ -5,7 +5,7 @@
   <h2 class="section-title">
     <span class="fa-stack fa-xs">
       <i class="fas fa-circle fa-stack-2x"></i>
-      <i class="fas fa-archive fa-stack-1x fa-inverse"></i>
+      <i class="fas fa-star fa-stack-1x fa-inverse"></i>
     </span>
     {{ projects.title }}
   </h2>
@@ -21,7 +21,7 @@
 
       <span class="project-title">
         {% if project.link %}
-        <a href="{{ project.link }}" target="_blank">{{ project.title }}</a>
+        <a href="{{ project.link }}" target="_blank">{% if project.logo %}<img class="avatar" src="{{ site.baseurl }}/assets/images/{{ project.logo }}" alt="logo picture" />  {% endif %}{{ project.title }}</a>
         {% else %}
         {{ project.title }}
         {% endif %}
