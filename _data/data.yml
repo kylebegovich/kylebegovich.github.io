@@ -15,7 +15,7 @@ sidebar:
 
     # Sidebar links
     email: begovichkyle@gmail.com
-    phone: 630 945 0544
+    # phone: 630 945 0544
     website: kylebegovich.com #do not add http://
     linkedin: kyle-begovich
     github: kylebegovich
@@ -156,7 +156,7 @@ research:
         link: "https://math.illinois.edu/research/igl/projects/fall/2018/mathematics-poker-games"
         authors: Professor A.J. Hildebrand
         details: |
-            - Working to verifying papers by John Nash and Lloyd Shapley
+            - Working to verifying papers by John Nash and Lloyd Shaple
             - Developed skills working with Game Theory, Probability, and Statistics Analysis
             - Produced a formally proven and highly scaleable project, and presentations
             - Partnering with Professor Hildebrand to continue directing the project for future semesters
