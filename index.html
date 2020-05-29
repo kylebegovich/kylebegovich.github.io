@@ -1,5 +1,16 @@
 ---
-layout: maintenance
-title: Sorry!
+layout: default
+title: Kyle Resume
 ---
-<h1>{{ "Site is down for maintenance, please check back soon!" }}</h1>
+
+{% include career-profile.html %}
+
+{% unless site.data.data.sidebar.education %}
+  {% include education.html %}
+{% endunless %}
+
+{% include experiences.html %}
+
+{% include projects.html %}
+
+{% include research.html %}
