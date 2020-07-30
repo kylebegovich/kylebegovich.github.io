@@ -1,2 +1,0 @@
-# kylebegovich.github.io
-website
