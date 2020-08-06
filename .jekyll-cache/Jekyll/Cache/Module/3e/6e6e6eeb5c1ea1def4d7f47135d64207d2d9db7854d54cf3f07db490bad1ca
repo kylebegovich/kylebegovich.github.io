@@ -1,12 +1,14 @@
-I"Ê
+I"D
 
 <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
         
+          <a class="site-logo" href="/"><img src="/assets/images/icons8-monitor-64.png" alt=""></a>
+        
         <a class="site-title" href="/">
-          Site Title
+          Projects and Ponderings
           
         </a>
         <ul class="visible-links"><li class="masthead__menu-item">
