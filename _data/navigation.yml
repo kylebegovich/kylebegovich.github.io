@@ -1,11 +1,13 @@
 # main links
 main:
-  - title: "Sample Posts"
-    url: /year-archive/
+  - title: "Writing"
+    url: /archive/
   - title: "About"
     url: /about/
   - title: "Resume"
     url: /resume/
+  - title: "Projects"
+    url: https://github.com/kylebegovich
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
