@@ -41,14 +41,14 @@ sidebar:
       - item: Cooking and Baking
         link:
 
-      - item: Snowboarding
+      - item: Surfing and Snowboarding
         link:
 
 career-profile:
     title: Career Profile
     summary: |
-      New Grad Software Engineer working in the Bay Area, focused on
-      infrastructure and backend.
+      Software Engineer working in the Bay Area, focused on
+      infrastructure-level privacy work.
 education:
     - degree: BSc in Mathematics and Computer Science
       university: University of Illinois at Urbana-Champaign
@@ -70,7 +70,11 @@ experiences:
       time: 2020 - Present
       company: Mountain View, CA
       details: |
-          - Will work in the Core Systems organization as a new grad SWE
+          - Working in the Privacy and Data Protection Org
+          - Developed tools for getting Privacy pre-approval on project launches
+          - Created workflow detecting & resolving conflicts of interest on privacy approvals
+          - Migrated privacy search tooling from old system into integrated storage stack
+          - Helped plan internal (virtual) privacy summit
     - role: Facebook, Software Engineer Co-op
       logo: facebook_instagram_logo.png
       time: Fall 2020
