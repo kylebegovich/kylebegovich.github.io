@@ -28,8 +28,11 @@ sidebar:
     goodreads: # Number-Username, e.g. 123456-alandoe
 
     languages:
-      - text_line: Golang • Node.JS • Python
-      - text_line: Java • Android  • Redis • Git
+      - text_line: Golang • Python • Java
+      - text_line: Microservices • RPC Services
+      - text_line: System Design • Database Deisgn
+      - text_line: Integration testing • Monitoring
+      - text_line: SQL • Android  • Redis • Git
       - text_line: LaTeX • Bash • Linux • MacOS
       - text_line: Alexa • Google Home • GCloud
       - text_line: AWS • Lambda • EC2 • S3
@@ -65,19 +68,24 @@ education:
         and ran a class series for Sail, the preview day for prospective and
         admitted CS students at UIUC.
 experiences:
-    - role: Google, Software Engineer
+    - role: Google, Full-Time Software Engineer
       logo: google_logo.png
-      time: 2020 - Present
+      time: June 2020 - Present
       company: Mountain View, CA
       details: |
-          - Working in the Privacy and Data Protection Org
-          - Developed tools for getting Privacy pre-approval on project launches
-          - Created workflow detecting & resolving conflicts of interest on privacy approvals
+          - Working in the Privacy and Data Protection Office
+          - Tech Lead on Privacy Approval tooling for Google product launches
+          - Designed and built workflow for automating Privacy approval on  launches
+          - Created workflow detecting \& resolving conflicts of interest for Privacy
           - Migrated privacy search tooling from old system into integrated storage stack
+          - Developed 2 services for existing microservice architecture
+          - Integrated permissions, integration testing, and configurability into projects
+          - Participated in team Oncall for >1 year, quickly addressing critical issues
           - Helped plan internal (virtual) privacy summit
+          - Trained interviewer and helped host recruiting events
     - role: Facebook, Software Engineer Co-op
       logo: facebook_instagram_logo.png
-      time: Fall 2020
+      time: Fall 2019
       company: Menlo Park, CA
       details: |
           - Worked on Instagram Security and Privacy team
@@ -86,7 +94,7 @@ experiences:
           - Experienced Django Python and formal code review processes
     - role: Uber, Software Engineer Intern
       logo: uber_logo.png
-      time: Summer 2020
+      time: Summer 2019
       company: San Francisco, CA
       details: |
           - Developed Caching system for Pricing models within UberEATS
@@ -96,7 +104,7 @@ experiences:
           - Collaborated cross-org: Compute, Design, and Data teams for projects
     - role: Goldman Sachs, Technology Analyst Intern
       logo: goldman_logo.png
-      time: Summer 2019
+      time: Summer 2018
       company: Chicago, IL
       details: |
           - Developed Alexa and Google Home apps for the Commercial Banking Division
