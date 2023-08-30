@@ -68,6 +68,21 @@ education:
         and ran a class series for Sail, the preview day for prospective and
         admitted CS students at UIUC.
 experiences:
+    - role: Glean, Software Engineer
+      logo: glean.png
+      time: June 2022 - Present
+      company: Palo Alto, CA
+      details: |
+          - Working on Datasource Connectors team
+          - Cross-functional owner of Slack Datasources
+          - Led development and ownership of Enterprise Slack connector
+          - Developed Federated Search framework and GSuite connector
+          - Improved monitoring, metrics, and alerting for all connectors
+          - Recieved first-year bonus for dedication to customer excellence
+          - Improved existing deploy tooling, plus participating in oncall rotation
+          - Managed one Summer Intern and mentored another
+          - Interviewed and helped land candidates
+          - Organized and continue to run fun/social events
     - role: Google, Full-Time Software Engineer
       logo: google_logo.png
       time: June 2020 - Present
