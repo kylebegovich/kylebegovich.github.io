@@ -15,7 +15,6 @@ sidebar:
 
     # Sidebar links
     email: begovichkyle@gmail.com
-    # phone: 630 945 0544
     website: kylebegovich.com #do not add http://
     linkedin: kyle-begovich
     github: kylebegovich
@@ -28,13 +27,12 @@ sidebar:
     goodreads: # Number-Username, e.g. 123456-alandoe
 
     languages:
-      - text_line: Golang • Python • Java
-      - text_line: Microservices • RPC Services
-      - text_line: System Design • Database Deisgn
+      - text_line: Java • Python • Golang
       - text_line: Integration testing • Monitoring
-      - text_line: SQL • Android  • Redis • Git
-      - text_line: LaTeX • Bash • Linux • MacOS
-      - text_line: Alexa • Google Home • GCloud
+      - text_line: System Design • Database Deisgn
+      - text_line: Microservices • RPC Services
+      - text_line: GCP • MySQL • SQL • Bash
+      - text_line: LaTeX • Linux • MacOS
       - text_line: AWS • Lambda • EC2 • S3
 
     interests:
@@ -79,16 +77,16 @@ experiences:
           - Developed Federated Search framework and GSuite connector
           - Improved monitoring, metrics, and alerting for all connectors
           - Recieved first-year bonus for dedication to customer excellence
-          - Improved existing deploy tooling, plus participating in oncall rotation
+          - Improved existing deploy tooling, plus paticipating in oncall rotation
           - Managed one Summer Intern and mentored another
           - Interviewed and helped land candidates
           - Organized and continue to run fun/social events
-    - role: Google, Full-Time Software Engineer
+    - role: Google, Software Engineer
       logo: google_logo.png
-      time: June 2020 - Present
+      time: June 2020 - June 2022
       company: Mountain View, CA
       details: |
-          - Working in the Privacy and Data Protection Office
+          - Worked in the Privacy and Data Protection Office
           - Tech Lead on Privacy Approval tooling for Google product launches
           - Designed and built workflow for automating Privacy approval on  launches
           - Created workflow detecting & resolving conflicts of interest for Privacy
