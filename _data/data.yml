@@ -20,7 +20,7 @@ sidebar:
     github: kylebegovich
     gitlab:
     bitbucket:
-    facebook: 'kyle.begovich.7'
+    facebook:
     twitter:
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
@@ -29,7 +29,7 @@ sidebar:
     languages:
       - text_line: Java • Python • Golang
       - text_line: Integration testing • Monitoring
-      - text_line: System Design • Database Deisgn
+      - text_line: System Design • Database Design
       - text_line: Microservices • RPC Services
       - text_line: GCP • MySQL • SQL • Bash
       - text_line: LaTeX • Linux • MacOS
@@ -48,8 +48,8 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Software Engineer working in the Bay Area, focused on
-      infrastructure-level privacy work.
+      Software Engineer working in the Bay Area, with experience in
+      infrastructure-level data work.
 education:
     - degree: BSc in Mathematics and Computer Science
       university: University of Illinois at Urbana-Champaign
@@ -66,22 +66,22 @@ education:
         and ran a class series for Sail, the preview day for prospective and
         admitted CS students at UIUC.
 experiences:
-    - role: Glean, Software Engineer
+    - role: Software Engineer, Glean
       logo: glean.png
-      time: June 2022 - Present
+      time: June 2022 - Jan 2024
       company: Palo Alto, CA
       details: |
-          - Working on Datasource Connectors team
+          - Worked on Datasource Connectors team
           - Cross-functional owner of Slack Datasources
           - Led development and ownership of Enterprise Slack connector
           - Developed Federated Search framework and GSuite connector
           - Improved monitoring, metrics, and alerting for all connectors
           - Recieved first-year bonus for dedication to customer excellence
-          - Improved existing deploy tooling, plus paticipating in oncall rotation
+          - Improved existing deploy tooling, participated in oncall rotations
           - Managed one Summer Intern and mentored another
           - Interviewed and helped land candidates
-          - Organized and continue to run fun/social events
-    - role: Google, Software Engineer
+          - Organized company hackathon and fun/social events
+    - role: Software Engineer, Google
       logo: google_logo.png
       time: June 2020 - June 2022
       company: Mountain View, CA
@@ -96,7 +96,7 @@ experiences:
           - Participated in team Oncall for >1 year, quickly addressing critical issues
           - Helped plan internal (virtual) privacy summit
           - Trained interviewer and helped host recruiting events
-    - role: Facebook, Software Engineer Co-op
+    - role: Software Engineer Co-op, Facebook
       logo: facebook_instagram_logo.png
       time: Fall 2019
       company: Menlo Park, CA
@@ -105,7 +105,7 @@ experiences:
           - Developed Authentication tooling for internal node API
           - Enforced higher standard of access tagging of assets set by infra teams
           - Experienced Django Python and formal code review processes
-    - role: Uber, Software Engineer Intern
+    - role: Software Engineer Intern, Uber
       logo: uber_logo.png
       time: Summer 2019
       company: San Francisco, CA
@@ -115,15 +115,15 @@ experiences:
           - Set and tracked metrics measuring compute savings and load time reductions
           - Finished with time to scope Android project for upcoming EATS features
           - Collaborated cross-org: Compute, Design, and Data teams for projects
-    - role: Goldman Sachs, Technology Analyst Intern
+    - role: Technology Analyst Intern, Goldman Sachs
       logo: goldman_logo.png
       time: Summer 2018
       company: Chicago, IL
       details: |
           - Developed Alexa and Google Home apps for the Commercial Banking Division
-          - Pitched project, worked in business timeline, delivered MVP
+          - Pitched project, worked within business timeline, delivered MVP
           - Wrote all project Node.JS, documentation, presentations, and budgeting
-    - role: CS 125, Lead Course Developer
+    - role: Lead Course Developer, CS 125
       logo: cs125_logo.png
       time: 2017 - 2019
       company: Champaign, IL
@@ -138,7 +138,15 @@ projects:
       In the CS department, I developed many of the student-run events in tandem
       with the administration and other student groups.
     assignments:
-      - title: HackIllinois, Director of Experience
+      - title: Founding President, Illinois Geometry Lab Outreach 
+        logo: igl_logo.png
+        link: "https://wiki.illinois.edu/wiki/display/IGL/Undergraduate+Outreach"
+        details: |
+            - Created Outreach organization for math undergrads to get more involved on campus
+            - Worked to create and share mathemtatics learning resources for K-12
+            - Shared learnings by offering classroom visits and department days to local schools
+            - Worked with Administrator/Professors Jeremey Tyson and Philipp Hieronymi    
+      - title: Director of Experience, HackIllinois
         logo: hackillinois_logo.png
         link: "https://www.hackillinois.org/"
         details: |
@@ -147,43 +155,35 @@ projects:
             - Found and Vetted all speakers, mentors, and projects
             - Planned and prepared all workshops, swag, admissions, and volunteers
             - Worked ~20 hr/wk in Summer & Fall and ~40 hr/wk in Spring
-      - title: Reflections|Projections, Operations Team Leader
+      - title: Operations Team Leader, Reflections|Projections
         logo: rp_logo.png
         link: "https://www.reflectionsprojections.org/"
         details: |
             - Reflections\|Projections is our student-run, week-long tech conference
             - Coordinated travel, food, building flow, volunteers, and swag
             - Served as "Crisis Team" member: most reliable staff for event on-call issues
-            - Worked ~10 hr/wk in Summer and ~30 hr/wk in Fall
-      - title: IGL Outreach Organization, Founding President
-        logo: igl_logo.png
-        link: "https://wiki.illinois.edu/wiki/display/IGL/Undergraduate+Outreach"
-        details: |
-            - Created Outreach organization for math undergrads to get more involved on campus
-            - Worked to create and share mathemtatics learning resources for K-12
-            - Shared learnings by offering classroom visits and department days to local schools
-            - Worked with administrators Professor Jeremey Tyson and Dr Philipp Hieronymi for guidance
+            - Worked ~10 hr/wk in Summer and ~30 hr/wk in Fall   
 research:
     title: research
     intro: |
       At school I worked closely with the college of Mathematics to run Illinois
       Geometry Lab research groups and the Undergrad Outreach Organization.
     projects:
-      - title: Video As a Sensor, Scholar and Project Manager
+      - title: Project Lead and Scholar, Video As a Sensor
         link: "https://math.illinois.edu/research/igl/projects/spring/2018/video-sensor"
         authors: Professor Richard Sowers
         details: |
-            - Developed tools on top of the You Only Look Once Open Source Software
-            - Generated and trained the Convolutional Neural Network on a rich data set
+            - Developed tools on top of "You Only Look Once" Open Source Software
+            - Generated and re-trained the Convolutional Neural Network
             - Presented work at UWashington, UI-Chicago, UIUC, and published online
-            - Worked closely with Professor Sowers over 4 semesters of being on this project
-      - title: Math of Poker-Like Games, Project Manager
+            - Worked closely with Professor Sowers over 4 semesters on the project
+      - title: Project Lead, Math of Poker-Like Games
         link: "https://math.illinois.edu/research/igl/projects/fall/2018/mathematics-poker-games"
         authors: Professor A.J. Hildebrand
         details: |
-            - Working to verifying papers by John Nash and Lloyd Shaple
-            - Developed skills working with Game Theory, Probability, and Statistics Analysis
-            - Produced a formally proven and highly scaleable project, and presentations
+            - Worked to verify papers by John Nash and Lloyd Shapley with computer modeling
+            - Developed skills working with Game Theory, Probability, and Statistical Analysis
+            - Produced a formally proven and highly scaleable project and presentations
             - Partnering with Professor Hildebrand to continue directing the project for future semesters
 
 # skills:
