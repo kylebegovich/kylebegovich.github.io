@@ -1,0 +1,336 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deedy - One Page Two Column Resume
+% LaTeX Template
+% Version 1.1 (30/4/2014)
+%
+% Original author:
+% Debarghya Das (http://debarghyadas.com)
+%
+% Original repository:
+% https://github.com/deedydas/Deedy-Resume
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% CHANGELOG:
+% v1.1:
+% 1. Fixed several compilation bugs with \renewcommand
+% 2. Got Open-source fonts (Windows/Linux support)
+% 3. Added Last Updated
+% 4. Move Title styling into .sty
+% 5. Commented .sty file.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Known Issues:
+% 1. Overflows onto a second page if any column's contents are more than the
+% vertical limit
+% 2. Hacky space on the first bullet point on the second column.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{deedy-resume-openfont}
+
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\lastupdated
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\namesection{Begovich}{Kyle}{
+% \urlstyle{same}\url{kylebegovich.com} \\
+\href{mailto:begovichkyle@gmail.com}{begovichkyle@gmail.com} | 630.945.0544
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.33\textwidth}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education}
+
+\subsection{University of Illinois}
+\descript{BS Math \& Computer Science}
+\location{May 2020 | Urbana, IL \\ Graduated with Distinction}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     LINKS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\vspace{8pt}
+
+\section{Links}
+Site: \href{www.kylebegovich.com}{\custombold{kylebegovich.com}} \\
+GitHub:// \href{https://github.com/kylebegovich}{\custombold{kylebegovich}} \\
+LinkedIn://  \href{https://www.linkedin.com/kyle-begovich}{\custombold{kyle-begovich}} \\
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\vspace{8pt}
+
+\section{Skills}
+\subsection{Expertise}
+Java \textbullet{} Python \textbullet{} Golang \\
+Microservices \textbullet{} RPC Services \\ System \& Database Design \\
+Integration testing \textbullet{} Alerting \\
+GCP \textbullet{} Monitoring \\
+\vspace{2pt}
+
+\subsection{Past Experience}
+SQL \textbullet{} Redis \textbullet{} Git \\
+\LaTeX\ \textbullet{} Bash \textbullet{} Linux \textbullet{} MacOS \\
+AWS \textbullet{} Lambda \textbullet{} EC2 \textbullet{} S3 \\
+\sectionsep
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COURSEWORK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\vspace{8pt}
+
+\section{Coursework}
+\subsection{Computer Science}
+Advanced Algorithms \\
+Algorithms \\
+Models of Computation \\
+Data Structures \\
+Software Design \\
+Numerical Analysis \\
+Systems Programming\\
+Honors Project \\
+\sectionsep
+
+\subsection{Mathematics}
+Probability Theory \\
+Graph Theory \\
+Linear Algebra \\
+DiffEqs \\
+Real Analysis \\
+Fundamentals \& Proofs \\
+Calculus Sequence \\
+Undergraduate Research Scholar (x5) \\
+Undergrad Research Team Leader (x3) \\
+\sectionsep
+
+
+% \subsection{Soft Skills}
+% Team Management \\
+% Client Acquisition \\
+% Optimizing Budgets \\
+% Teaching Experience
+\sectionsep
+
+
+% \section{References}
+% \subsection{Available Upon Request:}
+
+% \href{mailto:r-sowers@illinois.edu}{Research Mentors} \\
+% \href{mailto:challen@illinois.edu}{Course Professors} \\
+% \href{mailto:chongguang@instagram.com}{Facebook Manager} \\
+% \href{mailto:saurabh.ganeriwal@uber.com}{Uber Manager} \\
+% \href{mailto:shivam.x.sinha@ny.email.gs.com}{Goldman Sachs Manager} \\
+% \href{mailto:patrick.mackay@capitalone.com}{Capital One Manager} \\
+\sectionsep
+
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.66\textwidth}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Experience}
+
+\runsubsection{Glean}
+\descript{| Full-Time Software Engineer}
+\location{June 2022 - Jan 2024 | Palo Alto}
+\vspace{\topsep} 
+\begin{tightemize}
+\item Worked on Datasource Connectors team
+\item Cross-functional owner of Slack Datasources
+\item Led development and ownership of Enterprise Slack connector
+\item Developed Federated Search framework and GCal connector
+\item Improved monitoring, metrics, and alerting for all connectors
+\item Received first-year bonus for dedication to customer excellence
+\item Improved existing deploy tooling, participated in oncall rotations
+\item Managed one Summer Intern and mentored another
+\item Interviewed and helped land candidates
+\item Organized company hackathon and fun/social events
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Google}
+\descript{| Full-Time Software Engineer}
+\location{June 2020 - June 2022 | Sunnyvale}
+\vspace{\topsep}
+\begin{tightemize}
+\item Working in the Privacy and Data Protection Office
+\item Tech Lead on Privacy Approval tooling for Google product launches
+\item Designed and built workflow for automating Privacy approval on  launches
+\item Created workflow detecting \& resolving conflicts of interest for Privacy
+\item Migrated privacy search tooling from old system into integrated storage stack
+\item Developed 2 services for existing microservice architecture
+\item Integrated permissions, integration testing, and configurability into projects
+\item Participated in team Oncall for >1 year, quickly addressing critical issues
+\item Helped plan internal (virtual) privacy summit
+\item Trained interviewer and helped host recruiting events
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Facebook}
+\descript{| Software Engineer Co-op}
+\location{Fall 2019 | Menlo Park}
+\begin{tightemize}
+\item Worked on Instagram Security and Privacy team
+\item Developed Authentication tooling for internal node API
+\item Enforced higher standard of access tagging of assets set by infra teams
+\item Django Python and formal code review process experience
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Uber}
+\descript{| Software Engineer Intern}
+\location{Summer 2019 | San Francisco}
+\begin{tightemize}
+\item Developed Caching system for Pricing models within UberEATS
+\item Worked on Golang microservice architecture and integrating Redis clients
+\item Set and tracked metrics measuring compute savings and load time reductions
+\item Finished with time to scope Android project for upcoming EATS features
+\item Collaborated cross-org: Compute, Design, and Data teams for projects
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Goldman Sachs}
+\descript{| \href{https://www.goldmansachs.com/careers/divisions/engineering/index.html}{Technology Analyst Intern}}
+\location{Summer 2018 | Chicago}
+\begin{tightemize}
+\item Developed Alexa and Google Home apps for the Commercial Banking Division
+\item Pitched project, worked in business timeline, delivered MVP
+\item Wrote all project Node.JS, documentation, presentations, and budgeting
+\end{tightemize}
+\sectionsep
+
+% \runsubsection{Capital One}
+% \descript{| \href{http://researchpark.illinois.edu/careers/capital-one-illinois-digital-campus-lab-intern}{Software Engineering Intern}}
+% \location{August 2017 – May 2018 | Champaign}
+% % FALL:
+% \begin{tightemize}
+% \item Worked on migrating in-house compute to AWS
+% \item Management team used our presentation to influence internal Cloud policy
+% \end{tightemize}
+% % SPRING:
+% Second Project:
+% \begin{tightemize}
+% \item Worked on internal tools for budget tracking in JavaScript
+% \end{tightemize}
+% \sectionsep
+
+% \runsubsection{Lead Course Developer}
+% \descript{| \href{https://cs125.cs.illinois.edu/}{Student Developer}}
+% \location{Jan 2017 – May 2019 | Urbana}
+% \begin{tightemize}
+% \item Planned and ran first ever course project fair
+% \item Designed and wrote Machine Problems for >900 students per semester
+% \item Helped migrate course to new software tools, notably Git and Android
+% \end{tightemize}
+% \sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     RESEARCH
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \section{Research}
+% \runsubsection{\href{https://math.illinois.edu/research/igl/projects?field_project_semester_value=Spring&field_project_year_value=2018}{Video As a Sensor}}
+% \descript{| Scholar and Project Manager}
+% \location{Jan 2017 – Aug 2018}
+% \begin{tightemize}
+% \item Developed tools on top of the \textbf{\href{https://pjreddie.com/darknet/yolo/}{You Only Look Once}} Open Source Software
+% \item Generated and trained the Convolutional Neural Network on a rich data set
+% \item Presented work at UWashington, UI-Chicago, UIUC, and \href{https://github.com/kylebegovich/URS}{published online}
+% \item Worked closely with \textbf{\href{http://publish.illinois.edu/r-sowers/}{Prof Richard Sowers}}
+% \end{tightemize}
+% \sectionsep
+
+% \runsubsection{Math of Poker-Like Games}
+% \descript{| Project Manager}
+% \location{June 2018 - May 2019}
+% \begin{tightemize}
+% \item  \textbf{\href{https://www.ideals.illinois.edu/bitstream/handle/2142/99958/Dugar2018Symposium.pdf?sequence=2}{Verifying work by John Nash and Lloyd Shapley}}
+% \item Game Theory, Probability, and Statistics Analysis
+% \item Formal proven and highly scaleable project
+% \item Working closely with and under \textbf{\href{https://faculty.math.illinois.edu/~hildebr/}{Prof A J Hildebrand}}
+% \end{tightemize}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     GROUPS / LEADERSHIP
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\vspace{8pt}
+
+\section{Leadership}
+\runsubsection{\href{https://hackillinois.org/}{UIUC HackIllinois}}
+\descript{| Director of Experience | 2017 – '20}
+\begin{tightemize}
+\item Student-run, open-source Hackathon
+\item Managed a team of 15 students
+\item Responsible for finding and vetting all speakers, mentors, and projects
+\item Working \textasciitilde20 hr/wk in Summer \& Fall and \textasciitilde40 hr/wk in Spring
+\end{tightemize}
+\sectionsep
+
+\runsubsection{\href{https://reflectionsprojections.org/}{UIUC Reflections|Projections}}
+\descript{| Ops Team Leader | 2018 – '20}
+\begin{tightemize}
+\item Student-run, week-long tech conference
+\item Coordinating travel, food, building flow, volunteers, and swag
+\item Working \textasciitilde10 hr/wk in Summer and \textasciitilde30 hr/wk in Fall
+\end{tightemize}
+
+\end{minipage}
+
+
+\end{document}
