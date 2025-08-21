@@ -27,8 +27,10 @@ sidebar:
     goodreads: # Number-Username, e.g. 123456-alandoe
 
     languages:
+      - text_line: TypeScript • JavaScript
       - text_line: Java • Python • Golang
-      - text_line: Integration testing • Monitoring
+      - text_line: Observability • Testing
+      - text_line: Monitoring • Alerting
       - text_line: System Design • Database Design
       - text_line: Microservices • RPC Services
       - text_line: GCP • MySQL • SQL • Bash
@@ -48,8 +50,7 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Software Engineer working in the Bay Area, with experience in
-      infrastructure-level data work.
+      Software Engineer working in San Francisco, with full-stack expertise in AI and Data.
 education:
     - degree: BSc in Mathematics and Computer Science
       university: University of Illinois at Urbana-Champaign
@@ -66,6 +67,15 @@ education:
         and ran a class series for Sail, the preview day for prospective and
         admitted CS students at UIUC.
 experiences:
+    - role: Software Engineer, Asana
+      logo: asana.png
+      time: Aug 2024 - current
+      company: San Francisco, CA
+      details: |
+          - Tech Lead of AI Chat team
+          - Project Lead
+          - Systems Expert
+          - etc. etc.
     - role: Software Engineer, Glean
       logo: glean.png
       time: June 2022 - Jan 2024
