@@ -74,10 +74,10 @@ experiences:
       details: |
           - Tech Lead on AI Chat team: performance, reliability, and product work
           - Hardened reliability from under 90% to > 99% feature uptime
-          - Sped up performance from 45 second TTFT to < 3 seconds
-          - Upleveled 3 junior engineers through mentoring and project leading
           - Saved $500,000 / year with token use optimizations across LLM calls
-          - Led project from idea through to public launch, managing 6 engineers for 4 months
+          - Sped up performance from 45 second TTFT to < 3 seconds
+          - Led project from inception to public launch, managing 6 engineers for 4 months
+          - Upleveled 3 junior engineers through mentoring and project leading
           - Architected failure handling to prevent hanging and timeouts for users
           - Reduced oncall burden from 100% of a person's job to under 10%
           - Contributed to our AI Guild, bringing industry best-practices with the whole company
