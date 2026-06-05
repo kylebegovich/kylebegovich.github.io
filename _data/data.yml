@@ -72,10 +72,17 @@ experiences:
       time: Aug 2024 - current
       company: San Francisco, CA
       details: |
-          - Tech Lead of AI Chat team
-          - Project Lead
-          - Systems Expert
-          - etc. etc.
+          - Tech Lead on AI Chat team: performance, reliability, and product work
+          - Hardened reliability from under 90% to > 99% feature uptime
+          - Sped up performance from 45 second TTFT to < 3 seconds
+          - Upleveled 3 junior engineers through mentoring and project leading
+          - Saved $500,000 / year with token use optimizations across LLM calls
+          - Led project from idea through to public launch, managing 6 engineers for 4 months
+          - Architected failure handling to prevent hanging and timeouts for users
+          - Reduced oncall burden from 100% of a person's job to under 10%
+          - Contributed to our AI Guild, bringing industry best-practices with the whole company
+          - Partnered with PM and Design leaders to define AI roadmap across teams
+          - Designed LLM-as-judge evaluation framework for live traffic validation
     - role: Software Engineer, Glean
       logo: glean.png
       time: June 2022 - Jan 2024
